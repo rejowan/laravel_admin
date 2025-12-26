@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login</title>  	/** test comment 1  **/
+							// test comment 2
+							<!-- test comment 3  -->
+
+</head>
+<body style="text-align:center", bgcolor="skyblue" >
+	<h1><u>Admin Login</u></h1>
+	<br><br>
+	<form action="/login.blade.php" method="POST" >
+  		<label for="username">User name:</label><br>
+  		<input type="text" id="username" name="username" value="Type your username">
+  		<br>
+  		<label for="Password">Password:</label><br>
+  		<input type="text" id="Password" name="Password" value="****">
+  		<br><br>
+  		<input type="submit" value="Login">
+	</form> 
+
+	<p>If you click the "Login" button, the form-data will be sent to a page called "/login.blade.php".</p>
+	
+
+
+</body>
+</html>
